@@ -16,9 +16,28 @@ h1, h2 {
     };
 
 
-p {
+p, ul {
     color: @black;
     font-family: @font;
 }
 
+header {
+    background-color: @yellow;
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-start;
+        }
+        li {
+        list-style-type: none; 
+        padding: 3%; 
+         }
+}
+
+li:hover {
+    color: @red;
+    text-transform: uppercase;
+    
+}
 
